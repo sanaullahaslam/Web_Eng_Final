@@ -1,13 +1,17 @@
-// Example: Header.js
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../assets/style/future.css';
 
-import React from 'react';
-
-const HeroSection = () => {
-  return (
-    <header>
-      <h1>Hero Section2</h1>
-    </header>
-  );
-};
-
-export default HeroSection;
+export const Future =()=>{
+    return(
+        <>
+            <div className="container-fluid">
+                <div className="container">
+                    <div className="row">
+                            
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+} 

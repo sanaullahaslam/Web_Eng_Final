@@ -1,9 +1,7 @@
-// hero.js
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/style/hero.css';
-
 export const HeroSection = () => {
   const [showModal, setShowModal] = useState(false);
 
