@@ -3,7 +3,7 @@ import {Header} from './Components/Header';
 import {Footer} from './Components/Footer';
 // import {Future} from './Components/Future';
 import {HeroSection} from './Components/HeroSection';
-import {Section2} from './Components/Section2';
+import { Section2 } from './Components/Section2';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>  
       <Route path={"/"} element = {<HeroSection/>}/>
-      {/* <Section2 /> */}
+      <Route path={"/Section2"} element = {<Section2/>}/>
       {/* <Future /> */}
       </Routes>  
        <Footer />
