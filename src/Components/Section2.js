@@ -1,11 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import '../assets/style/section2.css';
 
-const Section2 = () => {
-  return (
-    <header>
-      <h1>Dection 5</h1>
-    </header>
-  );
-};
+export const Section2 = ()=>{
+    return(
+        <div className="container-fluid section2">
+            <div className='container'>
+                <div className='row'>
 
-export default Section2;
+                </div>
+            </div>
+        </div>
+    )
+} 
