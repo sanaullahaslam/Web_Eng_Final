@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import '../assets/style/section2.css';
 import pic from '../assets/images/section2.png';
-
+import second from '../assets/images/img_1.4df2ac48be1c06b2169f.png';
 export const Section2 = () => {
     return (
         <div className="container-fluid section2">
@@ -30,8 +30,24 @@ export const Section2 = () => {
                     <div className="col-lg-6 col-sm-12 col-md-12">
                         <img src={pic} className="img-fluid section2pic" alt="Web3makr.com" style={{ width: "90%", height: "100%" }} />
                     </div>
-                    <div className="row">
-                        {/* Add the rest of your content */}
+                    <div className='row'>
+                        <div className='col-lg-6 col-md-12 col-sm-12'>
+                            <img src={second} alt="Web3makr.com" style={{width: "90%", height: "100%"}}/>
+                        </div>
+                        <div className='col-lg-6 col-md-12 col-sm-12'>
+                            <div class="col-sm-12 my-4 col-md-6 col-lg-6 col-xl-6">
+                                <h1 class="font-bold-lato">You can also enjoy making sites with following technologies</h1>
+                                <span class="font-bold-light" style={{color: "rgb(24, 173, 228)", fontSize: "24px"}}>01 </span> <span style={{fontSize: "24px"}}>NFT (ERC-721)</span>
+                                <br/>
+                                <span class="font-bold-light"  style={{color: "rgb(24, 173, 228)", fontSize: "24px"}}>02 </span> <span style={{fontSize: "24px"}}>DEFI</span>
+                                <br/><span class="font-bold-light"  style={{color: "rgb(24, 173, 228)", fontSize: "24px"}}>03 </span> <span class="font-bold-light"style={{fontSize: "24px"}}>Smart Contracts</span>
+                                <br/><span class="font-bold-light" style={{color: "rgb(24, 173, 228)", fontSize: "24px"}}>04 </span> <span class="font-bold-light" style={{fontSize: "24px"}}>GameFi</span><br/>
+                                <span class="font-bold-light"  style={{color: "rgb(24, 173, 228)", fontSize: "24px"}}>05 </span> <span class="font-bold-light" style={{fontSize: "24px"}}>Metaverse</span>
+                                <br/>
+                                <a href="https://web3makr.netlify.app/"><button class="btn mt-4 font-bold-light btn-sm" style={{backgroundColor: "rgb(111, 52, 142)", color: "white;"}}>
+                                    Start Building</button></a>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
