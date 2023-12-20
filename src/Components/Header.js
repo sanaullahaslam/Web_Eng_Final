@@ -17,7 +17,7 @@ export const Header = () => {
           <Navbar.Collapse id="navbarScroll">
             <Nav className="ms-auto my-2 my-lg-0" style={{ maxHeight: '300px' }} navbarScroll>
               <Nav.Link><Link className="links-header" to={"/"}>Web3Mkr</Link></Nav.Link>
-              <Nav.Link><Link className="links-header" to={"/About"}>White Paper</Link></Nav.Link>
+              <Nav.Link><Link className="links-header" to={"/Section2"}>White Paper</Link></Nav.Link>
               <Nav.Link><Link className="links-header" to={"/Services"}>Services</Link></Nav.Link>
               <Nav.Link><Link className="links-header" to={"/Tool"}>Tool</Link></Nav.Link>
               <Nav.Link><Link className="links-header" to={"/Contact"}>Contact Us</Link></Nav.Link>
