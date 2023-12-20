@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>  
       <Route path={"/"} element = {<HeroSection/>}/>
-      <Section2 />
+      {/* <Section2 /> */}
       {/* <Future /> */}
       </Routes>  
        <Footer />
