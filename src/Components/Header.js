@@ -16,11 +16,11 @@ export const Header = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="ms-auto my-2 my-lg-0" style={{ maxHeight: '300px' }} navbarScroll>
-              <Nav.Link><Link className="links-header" to={"/"}>Web3Mkr</Link></Nav.Link>
-              <Nav.Link><Link className="links-header" to={"/Section2"}>White Paper</Link></Nav.Link>
-              <Nav.Link><Link className="links-header" to={"/Services"}>Services</Link></Nav.Link>
-              <Nav.Link><Link className="links-header" to={"/Tool"}>Tool</Link></Nav.Link>
-              <Nav.Link><Link className="links-header" to={"/Contact"}>Contact Us</Link></Nav.Link>
+              <Nav.Link className="links-header" to={"/"}>Web3Mkr</Nav.Link>
+              <Nav.Link className="links-header" to={"/Section2"}>White Paper</Nav.Link>
+              <Nav.Link lassName="links-header">Services</Nav.Link>
+              <Nav.Link className="links-header"> Tool</Nav.Link>
+              <Nav.Link className="links-header" >Contact Us</Nav.Link>
             </Nav>
             {/* Button with inline styles */}
             <button style={{ backgroundColor: 'black', border: '2px solid #18ADE4', color: '#18ADE4', padding: '8px 16px', borderRadius: '5px', marginLeft: '10px' }}>
